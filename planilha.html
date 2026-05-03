@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <title>Sistema de Consulta de Exames e Informações</title>
+    <link rel="icon" href="planilhas.css/image.png" type="image/x-icon">
+    <link rel="stylesheet" href="planilhas.css/planilha.css">
+</head>
+
+<body>
+  
+
+<h2>Selecione uma opção</h2>
+<div class="conteiner">
+<select id="informacoes">
+    <option value=""> 📋 Info </option>
+    <option value="info">📌Informações</option>
+    
+
+</select>
+
+<select id="Preparos">
+    <option value=""> 🔍 Preparos </option>
+    <option value="preparo">⚠️TESTE</option>
+   
+</select>
+
+<select id="Autorizacao">
+    <option value=""> ✅ Autorização </option>
+    <option value="liberacao">📄TESTE</option>
+    
+</select>
+<select id="aceitamos">
+<option value="">📝 Obs dos planos</option>
+<option value="unimed">🎗️TESTE</option>
+
+</select>
+
+<select id="Valores">
+  <option value=""> 💰 Valores </option>
+  <option value="ultrassom">💲Ultrassom</option>
+  <option value="ressonancia">💲Ressonancia</option>
+  <option value="tomografia">💲Tomografia</option>
+  <option value="rx">💲Rx</option>
+  <option value="densimmg">💲Densitometria e Mamografia</option>
+  <option value="cintilografia">💲Cintilografia</option>
+  <option value="puncao">💲Punção Biopsia</option>
+</select>
+ 
+<select id="medico">
+    <option value=""> 👨‍⚕️ Médicos</option>
+    <option value="teste">🧑‍⚕️TESTE</option>
+</select>
+</div>
+<div>
+  <input type="text" id="pesquisa" placeholder="Pesquisar...">
+</div>
+<table>
+<thead>
+<tr>  
+    <th></th>
+    <th>Procedimento / Informação</th>
+</tr>
+</thead>
+<tbody id="exames"></tbody>
+</table><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<footer>&copy;2026 Lucas França</footer>
+
+<script src="planilhas.js/planilha.js"></script>
+
+</body>
+</html>
